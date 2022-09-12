@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base { */
+:root {
+  /* Theme agnostic colors */
+  --highlight-color: #2a91ff;
+  --medlight-color: #1b89ff;
+  --lowlight-color: #007aff;
+
+  /* Dark mode */
+  --bg-base-color: #2f363d;
+  --bg-middleground-color: #18191e;
+  --bg-foreground-color: #292a30;
+  --text-primary-color: #eeeeee;
+  --text-secondary-color: #0066ff;
+  --text-muted-color: #818388;
+  --text-hover-color: #257cff;
+  --alt-color: #1b1f28;
+  --bg-line-divider-color: #0e1118;
+}
+
+/* } */
