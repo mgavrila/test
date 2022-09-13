@@ -19,6 +19,11 @@
   --text-hover-color: #257cff;
   --alt-color: #1b1f28;
   --bg-line-divider-color: #0e1118;
+  --loading-color: #0066ff;
 }
 
 /* } */
+
+body {
+  overflow: hidden;
+}

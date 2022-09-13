@@ -36,6 +36,7 @@ module.exports = {
       borderColor: {
         skin: {
           foreground: "var(--bg-foreground-color)",
+          loading: "var(--loading-color)",
         },
       },
     },

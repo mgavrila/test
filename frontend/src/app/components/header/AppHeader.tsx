@@ -11,7 +11,9 @@ export const AppHeader: React.FC<{ vbInstance: any }> = ({ vbInstance }) => {
   return (
     <header className="w-full">
       <div className="flex flex-row justify-between w-full p-3">
-        <ViteLogo className="h-8 text-skin-secondary" />
+        <a href="https://vite.org/" target="_blank" rel="noopener noreferrer">
+          <ViteLogo className="h-8 text-skin-secondary" />
+        </a>
 
         <div className="flex flex-row justify-end w-full fx px-2 py-0.5 h-7 gap-2">
           <label className="text-skin-primary">{shortAddress}</label>

@@ -21,7 +21,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="text-center bg-skin-base min-h-screen">
+    <div className="text-center bg-skin-base min-h-screen overflow-hidden">
       <AppContent isLoading={isLoading} />
     </div>
   );
