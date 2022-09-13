@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/main.css";
 
-import { setConnection } from "../features/connection/connectionSlice";
+import { setConnection } from "../store/connection/connectionSlice";
 import { useAppDispatch } from "../hooks/reduxHooks";
 import { ViteConnect } from "../utils/viteConnect";
 import { AppContent } from "./components/AppContent";

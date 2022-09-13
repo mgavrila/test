@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import WS_RPC from "@vite/vitejs-ws";
 import { accountBlock, ViteAPI } from "@vite/vitejs";
-import { getConnection } from "../../features/connection/connectionSlice";
+import { getConnection } from "../../store/connection/connectionSlice";
 import { useAppSelector, useAppDispatch } from "../../hooks/reduxHooks";
 import { AppHeader } from "../components/header/AppHeader";
 import { AppFooter } from "../components/footer/AppFooter";

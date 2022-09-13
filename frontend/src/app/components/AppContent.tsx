@@ -6,7 +6,7 @@ import {
   getConnection,
   setConnection,
   updateConnection,
-} from "../../features/connection/connectionSlice";
+} from "../../store/connection/connectionSlice";
 import { useAppSelector, useAppDispatch } from "../../hooks/reduxHooks";
 import { Router } from "../containers/Router";
 import { ViteConnect } from "../../utils/viteConnect";
@@ -60,7 +60,9 @@ export const AppContent: React.FC<{ isLoading: boolean }> = ({ isLoading }) => {
         <ViteLogo className="h-20 text-skin-secondary mb-6" />
       </a>
 
-      <h2 className="text-skin-primary text-2xl mb-6">Scan with VITE wallet to connect</h2>
+      <h2 className="text-skin-primary text-2xl mb-6">
+        Scan with VITE wallet to connect
+      </h2>
       <div className={"p-3 bg-white"}>
         <QRCode value={vbInstance.uri} size={256} />
       </div>
